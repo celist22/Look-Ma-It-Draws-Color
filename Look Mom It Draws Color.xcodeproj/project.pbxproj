@@ -14,6 +14,7 @@
 		0D2677C71FCCBDEF00ACBD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2677C51FCCBDEF00ACBD0D /* LaunchScreen.storyboard */; };
 		0D2677D21FCCBDEF00ACBD0D /* Look_Mom_It_Draws_ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2677D11FCCBDEF00ACBD0D /* Look_Mom_It_Draws_ColorTests.swift */; };
 		0D2677DD1FCCBDEF00ACBD0D /* Look_Mom_It_Draws_ColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2677DC1FCCBDEF00ACBD0D /* Look_Mom_It_Draws_ColorUITests.swift */; };
+		0D2677EB1FCCBE1100ACBD0D /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2677EA1FCCBE1100ACBD0D /* Squiggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D2677D81FCCBDEF00ACBD0D /* Look Mom It Draws ColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Look Mom It Draws ColorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2677DC1FCCBDEF00ACBD0D /* Look_Mom_It_Draws_ColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Look_Mom_It_Draws_ColorUITests.swift; sourceTree = "<group>"; };
 		0D2677DE1FCCBDEF00ACBD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2677EA1FCCBE1100ACBD0D /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0D2677C31FCCBDEF00ACBD0D /* Assets.xcassets */,
 				0D2677C51FCCBDEF00ACBD0D /* LaunchScreen.storyboard */,
 				0D2677C81FCCBDEF00ACBD0D /* Info.plist */,
+				0D2677EA1FCCBE1100ACBD0D /* Squiggle.swift */,
 			);
 			path = "Look Mom It Draws Color";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2677EB1FCCBE1100ACBD0D /* Squiggle.swift in Sources */,
 				0D2677BF1FCCBDEF00ACBD0D /* ViewController.swift in Sources */,
 				0D2677BD1FCCBDEF00ACBD0D /* AppDelegate.swift in Sources */,
 			);
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XEZ3R8X4C;
 				INFOPLIST_FILE = "Look Mom It Draws Color/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s519771.Look-Mom-It-Draws-Color";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XEZ3R8X4C;
 				INFOPLIST_FILE = "Look Mom It Draws Color/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s519771.Look-Mom-It-Draws-Color";
 				PRODUCT_NAME = "$(TARGET_NAME)";
